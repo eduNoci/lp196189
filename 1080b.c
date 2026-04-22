@@ -15,8 +15,7 @@ int main()
     int input[99];
     int maior = 0;
     int posicao;
-    //while(i < 100) 
-    while(i < 5)
+    while(i < 100) 
     {    
         scanf("%d", &input[i]);
         if(input[i] > maior)

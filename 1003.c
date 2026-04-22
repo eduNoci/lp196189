@@ -1,3 +1,12 @@
+ /* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : Eduardo Noci Deri
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1003
+Data        : 08/04/2026
+Objetivo    : Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
+Aprendizado : Como importar bibliotecas e declarar funções em c
+-------------------------------------------------------------------------- */
 #include <stdio.h>
 #include <stdlib.h>
 int a = 0;

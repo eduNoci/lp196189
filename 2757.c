@@ -2,8 +2,8 @@
 Disciplina  : Lógica de Programação, turma IB, 2026S1
 Nome: Eduardo Noci Deri
 Linguagem   : C
-Problema    : https://judge.beecrowd.com/pt/problems/view/1080
-Data        : 20/04/2026
+Problema    : https://judge.beecrowd.com/pt/problems/view/2757
+Data        : 17/04/2026
 Objetivo    : Entrada e Saída de Números Inteiros
 Aprendizado : Como contar o numero de caracteres de um numero
 -------------------------------------------------------------------------- */
@@ -89,7 +89,7 @@ int ndeCaracteres(int in)
 }
 void numeroJustificadoL(int n, char tipo)
 {
-     if (n < 0)
+    if (n < 0)
     {
         n = -n;
         printf("-");

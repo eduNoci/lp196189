@@ -11,11 +11,10 @@ Aprendizado : Como utilizar vetores em c
 
 int main()
 {
-    int i = 0; //declarando o índice como variável para acessar seu valor depois
     int input[99];
     int maior = 0;
     int posicao;
-    while(i < 100) 
+    for (int i = 0;i < 100; i++) 
     {    
         scanf("%d", &input[i]);
         if(input[i] > maior)
@@ -23,7 +22,6 @@ int main()
                 maior = input[i];
                 posicao = i + 1;
             }
-        i++;
     }
     printf("%d\n%d\n", maior, posicao);
     return 0;

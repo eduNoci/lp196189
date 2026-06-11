@@ -23,8 +23,8 @@ int main()
     printf("C = %.2lf, D = %.2lf\n", c, d);
     printf("A = %.3f, B = %.3f\n", a, b);
     printf("C = %.3lf, D = %.3lf\n", c, d);
-    printf("A = %.3fE+00, B = %.3fE+00\n", a, b);
-    printf("C = %.3lfE+00, D = %.3lfE+00\n", c, d);
-    printf("A = %d, B = %d\n", (int)a, (int)b);
-    printf("C = %d, D = %d\n", (int)c, (int)d);
+    printf("A = %.3E, B = %.3E\n", a, b);
+    printf("C = %.3E, D = %.3E\n", c, d);
+    printf("A = %.0lf, B = %.0lf\n", a, b);
+    printf("C = %.0lf, D = %.0lf\n", c, d);
 }

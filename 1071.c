@@ -15,20 +15,23 @@ int main()
     int x , y, aux;
     int soma = 0;
     scanf("%d %d", &x, &y);
-    if(x > y)
+    if(x > y) 
     {
         aux = x;
         x = y;
         y = aux;
     }
+
+    x++; //aumentando x para obter os valores entre x e y
+
     while (x < y)
     {
-        x++;
-        if (x % 2 == 1)
+        if (x % 2 != 0)
         {
             soma = soma + x;
         }
-        printf("%d\n", soma);
+        x++;
     }
+    printf("%d\n", soma);
     return 0;
 }

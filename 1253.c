@@ -14,7 +14,7 @@ int main() {
     int n, casas;
     char s[51]; 
 
-    if (scanf("%d", &n) != 1) return 0; 
+    scanf("%d", &n); 
 
     while (n--) {
         scanf("%s", s);

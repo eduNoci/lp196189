@@ -14,10 +14,7 @@ int main() {
     int n;
     char num[101]; 
 
-    if (scanf("%d", &n) != 1){
-         return 0;
-    }
-
+    scanf("%d", &n);
     while (n--) {
         scanf("%s", num);
 

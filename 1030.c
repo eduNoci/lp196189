@@ -14,7 +14,7 @@ int main() {
     int nCasos;
     int caso = 0;
 
-    if (scanf("%d", &nCasos) != 1) return 0;
+   scanf("%d", &nCasos);
 
     while (nCasos > 0) {
         int nPessoas, tamPulo;

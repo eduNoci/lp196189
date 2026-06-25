@@ -17,7 +17,7 @@ int main() {
     char b[1001];
     int casos;
 
-    if (scanf("%d", &casos) != 1) return 0;
+    scanf("%d", &casos);
 
     while (casos > 0) {
         scanf("%s %s", a, b);

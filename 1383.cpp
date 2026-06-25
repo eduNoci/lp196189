@@ -43,7 +43,7 @@ int validarSudoku(int matriz[9][9]) {
                 for (int j = 0; j < 3; j++) {
                     int num = matriz[L + i][C + j];
                     
-                    if (num < 1 || num > 9 || v_bloco[num] == 1) return 0;
+                    if (v_bloco[num] == 1) return 0;
                     v_bloco[num] = 1;
                 }
             }
@@ -56,7 +56,7 @@ int validarSudoku(int matriz[9][9]) {
 int main() {
     int n, instancia;
     
-    if (scanf("%d", &n) != 1) return 0;
+    scanf("%d", &n);
 
     for (instancia = 1; instancia <= n; instancia++) {
         int sudoku[9][9];
@@ -65,7 +65,7 @@ int main() {
         // Leitura da matriz
         for (i = 0; i < 9; i++) {
             for (j = 0; j < 9; j++) {
-                if (scanf("%d", &sudoku[i][j]) != 1) return 0;
+                scanf("%d", &sudoku[i][j]);
             }
         }
 
